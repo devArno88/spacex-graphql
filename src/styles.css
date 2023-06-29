@@ -1,0 +1,64 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+strong {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h1,
+small {
+  margin-bottom: 12px;
+}
+
+button {
+  padding: 0.5rem 0.8rem;
+  cursor: pointer;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.launch__item {
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px inset black;
+  margin-top: 12px;
+  padding: 1.6rem 1rem;
+  height: fit-content;
+  border-radius: 12px;
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  cursor: pointer;
+}
+
+.launch__item:hover {
+  transform: scale(1.01);
+  box-shadow: 5px 5px 2px rgb(158, 158, 158);
+  transition: 100ms;
+  background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+}
+
+.launch__itemText {
+  margin-top: 8px;
+}
